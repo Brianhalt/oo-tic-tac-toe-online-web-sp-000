@@ -1,7 +1,7 @@
 require "pry"
 class TicTacToe
-  def initialize(board = nil)
-    @board = board || Array.new(9, " ")
+  def initialize(board = nil) #defaulting as nil
+    @board = board || Array.new(9, " ") #board will be nil or new Array
   end
 
   # Define your WIN_COMBINATIONS constant
